@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "Company",
+      "id": "TechNova Corp"
+    },
+    {
+      "type": "Person",
+      "id": "Elena Rostova"
+    },
+    {
+      "type": "Location",
+      "id": "Austin, Texas"
+    },
+    {
+      "type": "Product",
+      "id": "Nebula-7"
+    },
+    {
+      "type": "Company",
+      "id": "SkyNet Systems"
+    },
+    {
+      "type": "Person",
+      "id": "Marcus Vance"
+    },
+    {
+      "type": "Company",
+      "id": "DataCore Labs"
+    },
+    {
+      "type": "Location",
+      "id": "Seattle"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "FOUNDED_BY",
+      "source": "TechNova Corp",
+      "target": "Elena Rostova",
+      "key": 0
+    },
+    {
+      "relation": "HEADQUARTERED_IN",
+      "source": "TechNova Corp",
+      "target": "Austin, Texas",
+      "key": 0
+    },
+    {
+      "relation": "RELEASED",
+      "source": "TechNova Corp",
+      "target": "Nebula-7",
+      "key": 0
+    },
+    {
+      "relation": "TRAINED_USING",
+      "source": "Nebula-7",
+      "target": "SkyNet Systems",
+      "key": 0
+    },
+    {
+      "relation": "JOINED",
+      "source": "Marcus Vance",
+      "target": "TechNova Corp",
+      "key": 0
+    },
+    {
+      "relation": "WORKED_AT",
+      "source": "Marcus Vance",
+      "target": "DataCore Labs",
+      "key": 0
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "source": "DataCore Labs",
+      "target": "TechNova Corp",
+      "key": 0
+    },
+    {
+      "relation": "BASED_IN",
+      "source": "DataCore Labs",
+      "target": "Seattle",
+      "key": 0
+    }
+  ]
+}
